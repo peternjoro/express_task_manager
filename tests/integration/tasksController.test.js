@@ -1,5 +1,5 @@
 const request = require("supertest");
-// const { response } = require("../../app"); 
+// const { response } = require("../../app");
 const app = require("../../app");
 
 const TaskModel = require("../../models/tasks");
@@ -38,7 +38,7 @@ describe("Task Controller", () => {
         name: "task testid",
       });
     });
-    
+
     it("should return 200 and a single task", async () => {
       const response = await request(app)
         .get(`/api/v1/tasks/${task.id}`)
@@ -66,7 +66,7 @@ describe("Task Controller", () => {
       expect(response.status).toBe(404);
       expect(response.body.msg).toEqual("this task does not exist");
     });
-     
+
 
     it("should return 200 and the updated task", async () => {
       const response = await request(app)

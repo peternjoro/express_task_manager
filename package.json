@@ -4,11 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "cross-env NODE_ENV=test jest --testTimeout=5000 --detectOpenHandles"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "jest-test": "cross-env NODE_ENV=test jest --testTimeout=5000 --detectOpenHandles"
   },
   "keywords": [],
-  "author": "",
+  "author": "Peter Mwangi",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",

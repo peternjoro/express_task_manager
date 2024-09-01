@@ -130,7 +130,7 @@ a {
   text-decoration: none;
 }
 /*************
-     Buttons 
+    Buttons
 *************/
 
 .btn {
@@ -170,7 +170,7 @@ button.block {
 }
 
 /*************
-     FORM 
+    FORM
 *************/
 form {
   width: 100%;
@@ -323,7 +323,7 @@ form > :last-child {
 }
 
 /*************
-     TASKS
+    TASKS
 *************/
 .empty-list {
   text-align: center;
@@ -398,7 +398,7 @@ form > :last-child {
 }
 
 /*************
-   SINGLE TASK
+  SINGLE TASK
 *************/
 
 .single-task-form h4 {
